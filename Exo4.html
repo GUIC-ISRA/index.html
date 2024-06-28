@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <title>Champ de textes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form action="" method="post" id="theForm">
+        <fieldset>
+            <p>Entrer votre commentaire ici (100 charactere
+maximum).</p>
+    <div>
+        <label for="comments">Commentaire</label>
+        <textarea name="comments" id="comments" maxlength="100"
+required></textarea>
+    </div>
+    <div>
+        <label for="count">Compte des caracteres</label>
+        <input type="number" name="count" id="count">
+    </div>
+    <div>
+        <label for="result">Resultat</label>
+        <textarea name="result" id="result"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Submit" id="submit">
+    </div>
+        </fieldset>
+    </form>
+    <script src="exo4.js"></script>
+</body>
+</html>
